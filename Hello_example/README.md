@@ -14,3 +14,6 @@ sudo rmmod ldd.ko
 
 #console message command
 sudo dmesg
+
+#to know the info about module 
+modinfo ldd.ko
