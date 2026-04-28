@@ -4,16 +4,22 @@
 
 MODULE_LICENSE("Dual BSD/GPL"); //*
 
-static struct proc_dir_entry *custom_proc_dir;
+static struct proc_dir_entry *custom_proc_nod;
 struct proc_ops custum_proc_dt = {
     
 };
 static int proc_init(void){
     printk(KERN_ALERT "proc dynamic init : entered\n");
-   custom_proc_dir = proc_create("swamy_driver", 
+   custom_proc_nod = proc_create("swamy_driver", 
                                 0,
 		                        NULL,
                                 &custum_proc_dt);
+
+    if(custom_proc_nod == NULL)
+    {
+        printk(KERN_ALERT "proc dynamic init : Error\n");
+        return -1;
+    }
     printk(KERN_ALERT "proc dynamic init : end\n");
 return 0;
 }
@@ -21,7 +27,7 @@ return 0;
 
 static void proc_exit(void){
     printk(KERN_ALERT "proc dinamic exit : entered\n");
-    proc_remove(custom_proc_dir);
+    proc_remove(custom_proc_nod);
     printk(KERN_ALERT "proc dinamic exit : end\n");
 }
 

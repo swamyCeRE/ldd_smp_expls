@@ -1,3 +1,10 @@
+#To connect the multipass (multipass is a vartuval env)
+multipass shell
+
+#password
+p
+
+
 #Hello world sample program commands
 #build .ko 
 make all
