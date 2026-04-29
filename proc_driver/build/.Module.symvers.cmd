@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/ldd/ldd_smp_expls/proc_driver/build/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/ubuntu/ldd/ldd_smp_expls/proc_driver/build/Module.symvers -T /home/ubuntu/ldd/ldd_smp_expls/proc_driver/build/modules.order -i Module.symvers -e 

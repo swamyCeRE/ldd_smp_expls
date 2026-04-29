@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/ldd/ldd_smp_expls/hello_example/build/modules.order := {   echo /home/ubuntu/ldd/ldd_smp_expls/hello_example/build/ldd.o; :; } > /home/ubuntu/ldd/ldd_smp_expls/hello_example/build/modules.order

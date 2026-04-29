@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/ldd/ldd_smp_expls/proc_driver/build/proc.mod := printf '%s\n'   proc.o | awk '!x[$$0]++ { print("/home/ubuntu/ldd/ldd_smp_expls/proc_driver/build/"$$0) }' > /home/ubuntu/ldd/ldd_smp_expls/proc_driver/build/proc.mod

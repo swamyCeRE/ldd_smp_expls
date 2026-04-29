@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/ldd/ldd_smp_expls/hello_example/build/ldd.mod := printf '%s\n'   ldd.o | awk '!x[$$0]++ { print("/home/ubuntu/ldd/ldd_smp_expls/hello_example/build/"$$0) }' > /home/ubuntu/ldd/ldd_smp_expls/hello_example/build/ldd.mod
