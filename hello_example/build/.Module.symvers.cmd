@@ -1,1 +1,0 @@
-savedcmd_/home/ubuntu/ldd/ldd_smp_expls/hello_example/build/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/ubuntu/ldd/ldd_smp_expls/hello_example/build/Module.symvers -T /home/ubuntu/ldd/ldd_smp_expls/hello_example/build/modules.order -i Module.symvers -e 
