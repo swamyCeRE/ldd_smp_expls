@@ -24,13 +24,16 @@
 #	rm -rf $(OUT)
 
 ifneq ($(KERNELRELEASE),)
-	obj-m := ldd.o
+	obj-m := md_prm_array.o
 
 else
 	KERNDIR ?= /lib/modules/$(shell uname -r)/build
 	PWD := $(shell pwd)
 
-default:
+all:
 	$(MAKE) -C $(KERNDIR) M=$(PWD) modules
+
+clean:
+	$(MAKE) -C $(KERNDIR) M=$(PWD) clean
 
 endif

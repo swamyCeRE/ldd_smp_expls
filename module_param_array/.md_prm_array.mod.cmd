@@ -1,0 +1,1 @@
+savedcmd_/home/ubuntu/ldd/ldd_smp_expls/module_param_array/md_prm_array.mod := printf '%s\n'   md_prm_array.o | awk '!x[$$0]++ { print("/home/ubuntu/ldd/ldd_smp_expls/module_param_array/"$$0) }' > /home/ubuntu/ldd/ldd_smp_expls/module_param_array/md_prm_array.mod
