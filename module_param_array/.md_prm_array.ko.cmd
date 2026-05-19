@@ -1,1 +1,0 @@
-savedcmd_/home/ubuntu/ldd/ldd_smp_expls/module_param_array/md_prm_array.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/ldd/ldd_smp_expls/module_param_array/md_prm_array.ko /home/ubuntu/ldd/ldd_smp_expls/module_param_array/md_prm_array.o /home/ubuntu/ldd/ldd_smp_expls/module_param_array/md_prm_array.mod.o
